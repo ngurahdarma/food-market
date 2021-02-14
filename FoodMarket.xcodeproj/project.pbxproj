@@ -122,7 +122,7 @@
 		FCB909552575A6C8000700CE /* DetailCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCategoryViewModel.swift; sourceTree = "<group>"; };
 		FCB909582575B096000700CE /* DetailMealResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealResponse.swift; sourceTree = "<group>"; };
 		FCB909612575B6F5000700CE /* DetailMealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealModel.swift; sourceTree = "<group>"; };
-		FCB909662575B7EF000700CE /* DetailMealUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailMealUseCase.swift; path = FoodMarket/Core/Domain/Model/DetailMealUseCase.swift; sourceTree = SOURCE_ROOT; };
+		FCB909662575B7EF000700CE /* DetailMealUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailMealUseCase.swift; path = FoodMarket/Module/DetailMeal/Domain/UseCase/DetailMealUseCase.swift; sourceTree = SOURCE_ROOT; };
 		FCB9096B2575B8D4000700CE /* DetailMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealViewModel.swift; sourceTree = "<group>"; };
 		FCB909842575D96C000700CE /* CategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEntity.swift; sourceTree = "<group>"; };
 		FCB909882575D9FA000700CE /* LocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSource.swift; sourceTree = "<group>"; };
