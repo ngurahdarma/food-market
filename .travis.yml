@@ -1,7 +1,6 @@
 language: swift
 osx_image: xcode12
+podfile: Podfile
 xcode_workspace: FoodMarket.xcworkspace
 xcode_scheme: FoodMarket
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
-script:
-  - xcrun simctl list
+xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro Max
