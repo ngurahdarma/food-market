@@ -12,6 +12,7 @@
 		FC7B2540255520AA009084BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B253F255520AA009084BA /* SceneDelegate.swift */; };
 		FC7B2547255520AA009084BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7B2546255520AA009084BA /* Assets.xcassets */; };
 		FC7B254A255520AA009084BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7B2548255520AA009084BA /* LaunchScreen.storyboard */; };
+		FC82D1C025DD60B90073105C /* FoodMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC82D1BF25DD60B90073105C /* FoodMarketTests.swift */; };
 		FC891A45257627F500FBB687 /* FavoriteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC891A44257627F500FBB687 /* FavoriteEntity.swift */; };
 		FCB10BBD25770AE100D84727 /* FavoriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB10BBC25770AE100D84727 /* FavoriteUseCase.swift */; };
 		FCB10BC625770C3300D84727 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB10BC525770C3300D84727 /* FavoriteViewModel.swift */; };
@@ -68,6 +69,16 @@
 		FCB909AA2575F833000700CE /* DetailMealEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB909A92575F833000700CE /* DetailMealEntity.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FC82D1C225DD60B90073105C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7B2532255520AA009084BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7B2539255520AA009084BA;
+			remoteInfo = FoodMarket;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3326DB6347A73204F3A38518 /* Pods_FoodMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C92C1E9F389FB10FE471762 /* Pods-FoodMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMarket.release.xcconfig"; path = "Target Support Files/Pods-FoodMarket/Pods-FoodMarket.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +89,9 @@
 		FC7B2546255520AA009084BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7B2549255520AA009084BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7B254B255520AA009084BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC82D1BD25DD60B90073105C /* FoodMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC82D1BF25DD60B90073105C /* FoodMarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMarketTests.swift; sourceTree = "<group>"; };
+		FC82D1C125DD60B90073105C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC891A44257627F500FBB687 /* FavoriteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEntity.swift; sourceTree = "<group>"; };
 		FCB10BBC25770AE100D84727 /* FavoriteUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteUseCase.swift; sourceTree = "<group>"; };
 		FCB10BC525770C3300D84727 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
@@ -143,6 +157,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC82D1BA25DD60B90073105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -160,6 +181,7 @@
 			children = (
 				FCB909072574D64A000700CE /* .swiftlint.yml */,
 				FC7B253C255520AA009084BA /* FoodMarket */,
+				FC82D1BE25DD60B90073105C /* FoodMarketTests */,
 				FC7B253B255520AA009084BA /* Products */,
 				9E2641C7D09EB55A3DAC8ACB /* Pods */,
 				FE3DD3A50A6895631B58C79F /* Frameworks */,
@@ -170,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				FC7B253A255520AA009084BA /* FoodMarket.app */,
+				FC82D1BD25DD60B90073105C /* FoodMarketTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +206,15 @@
 				FCB9084D2573AA9F000700CE /* SupportedFiles */,
 			);
 			path = FoodMarket;
+			sourceTree = "<group>";
+		};
+		FC82D1BE25DD60B90073105C /* FoodMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC82D1BF25DD60B90073105C /* FoodMarketTests.swift */,
+				FC82D1C125DD60B90073105C /* Info.plist */,
+			);
+			path = FoodMarketTests;
 			sourceTree = "<group>";
 		};
 		FCB10BC025770AE500D84727 /* UseCase */ = {
@@ -654,6 +686,24 @@
 			productReference = FC7B253A255520AA009084BA /* FoodMarket.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FC82D1BC25DD60B90073105C /* FoodMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC82D1C625DD60B90073105C /* Build configuration list for PBXNativeTarget "FoodMarketTests" */;
+			buildPhases = (
+				FC82D1B925DD60B90073105C /* Sources */,
+				FC82D1BA25DD60B90073105C /* Frameworks */,
+				FC82D1BB25DD60B90073105C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC82D1C325DD60B90073105C /* PBXTargetDependency */,
+			);
+			name = FoodMarketTests;
+			productName = FoodMarketTests;
+			productReference = FC82D1BD25DD60B90073105C /* FoodMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -665,6 +715,10 @@
 				TargetAttributes = {
 					FC7B2539255520AA009084BA = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					FC82D1BC25DD60B90073105C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FC7B2539255520AA009084BA;
 					};
 				};
 			};
@@ -682,6 +736,7 @@
 			projectRoot = "";
 			targets = (
 				FC7B2539255520AA009084BA /* FoodMarket */,
+				FC82D1BC25DD60B90073105C /* FoodMarketTests */,
 			);
 		};
 /* End PBXProject section */
@@ -701,6 +756,13 @@
 				FCB908B62574BDD7000700CE /* FavoriteViewController.xib in Resources */,
 				FCB9093725759C99000700CE /* DetailCategoryCollectionViewCell.xib in Resources */,
 				FCB908A72574BC6E000700CE /* DetailCategoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC82D1BB25DD60B90073105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,7 +884,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC82D1B925DD60B90073105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC82D1C025DD60B90073105C /* FoodMarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC82D1C325DD60B90073105C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7B2539255520AA009084BA /* FoodMarket */;
+			targetProxy = FC82D1C225DD60B90073105C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FC7B2548255520AA009084BA /* LaunchScreen.storyboard */ = {
@@ -990,6 +1068,46 @@
 			};
 			name = Release;
 		};
+		FC82D1C425DD60B90073105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodMarketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngurah.FoodMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodMarket.app/FoodMarket";
+			};
+			name = Debug;
+		};
+		FC82D1C525DD60B90073105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodMarketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngurah.FoodMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodMarket.app/FoodMarket";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1007,6 +1125,15 @@
 			buildConfigurations = (
 				FC7B254F255520AA009084BA /* Debug */,
 				FC7B2550255520AA009084BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC82D1C625DD60B90073105C /* Build configuration list for PBXNativeTarget "FoodMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC82D1C425DD60B90073105C /* Debug */,
+				FC82D1C525DD60B90073105C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
